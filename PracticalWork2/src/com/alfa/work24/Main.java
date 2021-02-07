@@ -26,6 +26,6 @@ public class Main {
        reverse_number = reverse_number*10 + number%10;
        number = number/10;
        System.out.println("rewers: " + reverse_number);
-       System.out.println("difference: " + (q - reverse_number));
+       System.out.println("difference: " + (save_number - reverse_number));
     }
 }
